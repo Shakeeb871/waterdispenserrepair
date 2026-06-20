@@ -22,7 +22,7 @@ DirectoryIndex index.html index.php
 # ----- Custom error pages -----
 ErrorDocument 404 /404.html
 
-# ----- SEO-friendly clean URLs (no .html / .php) -----
+# ----- SEO-friendly clean URLs (extensionless, trailing slash) -----
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -31,19 +31,26 @@ ErrorDocument 404 /404.html
   RewriteCond %{THE_REQUEST} \s/+index(\.html)?[\s?] [NC]
   RewriteRule ^ / [R=301,L]
 
-  # 301: strip .html from any request -> clean URL
+  # 301: .html  ->  clean URL with trailing slash
   RewriteCond %{THE_REQUEST} \s/+([^.\s?]+)\.html[\s?] [NC]
-  RewriteRule ^ /%1 [R=301,L]
+  RewriteRule ^ /%1/ [R=301,L]
 
-  # 301: strip .php from any request -> clean URL
+  # 301: .php  ->  clean URL with trailing slash
   RewriteCond %{THE_REQUEST} \s/+([^.\s?]+)\.php[\s?] [NC]
-  RewriteRule ^ /%1 [R=301,L]
+  RewriteRule ^ /%1/ [R=301,L]
 
-  # 301: flat brand-xxx -> canonical /brands/xxx
+  # 301: flat brand-xxx  ->  canonical /brands/xxx/
   RewriteCond %{THE_REQUEST} \s/+brand-([a-z0-9-]+)[\s?] [NC]
-  RewriteRule ^ /brands/%1 [R=301,L]
+  RewriteRule ^ /brands/%1/ [R=301,L]
 
-  # Serve brand pages:  /brands/philips  ->  brand-philips.html
+  # 301: enforce trailing slash on extensionless URLs (skip real files/dirs)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]+)$
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^(.+)$ /$1/ [R=301,L]
+
+  # Serve brand pages:  /brands/philips/  ->  brand-philips.html
   RewriteRule ^brands/([a-z0-9-]+)/?$ brand-$1.html [L]
 
   # Serve clean URLs internally: add .html, then .php, if the file exists

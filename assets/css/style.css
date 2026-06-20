@@ -64,13 +64,13 @@ h1, h2, h3, h4, h5 {
 
 /* ---------- Layout ---------- */
 .container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: 24px; }
-.section { padding: 110px 0; }
-.section--sm { padding: 80px 0; }
+.section { padding: 72px 0; }
+.section--sm { padding: 52px 0; }
 .section--soft { background: var(--bg-soft); }
 .section--ink { background: var(--ink); }
 .text-center { text-align: center; }
 
-.section-head { max-width: 680px; margin: 0 auto 60px; text-align: center; }
+.section-head { max-width: 680px; margin: 0 auto 42px; text-align: center; }
 .section-head.left { margin-inline: 0; text-align: left; }
 
 .eyebrow {
@@ -455,7 +455,7 @@ h1, h2, h3, h4, h5 {
   .nav__phone { display: none; }
 }
 @media (max-width: 768px) {
-  .section { padding: 72px 0; }
+  .section { padding: 50px 0; }
   .topbar__info { gap: 16px; }
   .topbar__info .hide-sm { display: none; }
   .nav__toggle { display: flex; }

@@ -1,10 +1,8 @@
 ---
 deployment:
   tasks:
-    # IMPORTANT: replace "CPANEL_USERNAME" below with your real cPanel username.
-    # You can see it in cPanel top-right, or in the path shown on the
-    # "Git Version Control" page (e.g. /home/abcd1234/...).
-    - export DEPLOYPATH=/home/CPANEL_USERNAME/public_html/
+    # $HOME automatically points to your cPanel home folder — no editing needed.
+    - export DEPLOYPATH=$HOME/public_html/
     - /bin/mkdir -p $DEPLOYPATH/assets
     - /bin/mkdir -p $DEPLOYPATH/includes
     - /bin/cp index.html       $DEPLOYPATH

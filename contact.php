@@ -17,7 +17,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://waterdispenserrepair.ae/assets/img/og-image.jpg">
   <meta name="theme-color" content="#0c1c2c">
-  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/img/favicon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

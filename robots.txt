@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /includes/
+
+Sitemap: https://www.aquafixuae.ae/sitemap.xml

@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs & temp
+*.log
+*.bak
+*.tmp
+
+# Local config / secrets (do NOT commit real credentials)
+includes/config.local.php
+.env
+
+# Dependencies (if added later)
+node_modules/
+vendor/

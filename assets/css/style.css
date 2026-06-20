@@ -656,3 +656,24 @@ h1, h2, h3, h4, h5 {
   .nav__sub a { padding: 12px 12px 12px 26px; border-bottom: 1px solid var(--line); }
   .nav__item.is-open .nav__droplink .caret { transform: rotate(180deg); }
 }
+
+/* ---------- Small dropdown (Locations) ---------- */
+.nav__sub--sm { min-width: 220px; grid-template-columns: 1fr; }
+
+/* ---------- Blog ---------- */
+.post-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg); overflow: hidden; transition: var(--t); display: flex; flex-direction: column; }
+.post-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+.post-card__img { height: 190px; }
+.post-card__body { padding: 26px; display: flex; flex-direction: column; flex: 1; }
+.post-card__meta { font-size: .78rem; color: var(--muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+.post-card__body h3 { font-size: 1.15rem; margin-bottom: 10px; }
+.post-card__body p { color: var(--muted); font-size: .93rem; margin-bottom: 16px; flex: 1; }
+
+/* ---------- Article ---------- */
+.article { max-width: 780px; margin: 0 auto; }
+.article__meta { color: var(--muted); font-size: .9rem; margin-bottom: 10px; }
+.article p { margin-bottom: 18px; }
+.article h2 { font-size: 1.5rem; margin: 34px 0 14px; }
+.article ul { margin: 0 0 18px; }
+.article ul li { position: relative; padding-left: 28px; margin-bottom: 10px; }
+.article ul li::before { content: ""; position: absolute; left: 0; top: 9px; width: 13px; height: 13px; border-radius: 50%; background: var(--accent-soft); border: 2px solid var(--accent); }

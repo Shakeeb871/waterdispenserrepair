@@ -39,16 +39,16 @@ Update them, then do a find-and-replace across the HTML files for the same value
 
 | What | Where | Current placeholder |
 |------|-------|---------------------|
-| Phone number | `config.php` + all pages (`+971500000000`) | `+971 50 000 0000` |
-| WhatsApp number | all pages (`wa.me/971500000000`) | `971500000000` |
-| Email | `config.php` + all pages | `info@aquafixuae.ae` |
+| Phone number | `config.php` + all pages (`+971501590802`) | `+971 50 159 0802` |
+| WhatsApp number | all pages (`wa.me/971501590802`) | `971501590802` |
+| Email | `config.php` + all pages | `info@waterdispenserrepair.ae` |
 | Business name | all pages | `AquaFix UAE` |
-| Domain | `config.php`, `sitemap.xml`, `robots.txt`, meta tags | `aquafixuae.ae` |
+| Domain | `config.php`, `sitemap.xml`, `robots.txt`, meta tags | `waterdispenserrepair.ae` |
 | Social links | header / footer (`href="#"`) | `#` |
 | Reviews & stats | `index.html`, `about.html` | sample content |
 
 > 💡 Tip: a quick way to swap the phone everywhere is a project-wide
-> find & replace of `+971500000000` and `971500000000`.
+> find & replace of `+971501590802` and `971501590802`.
 
 ---
 

@@ -7,7 +7,7 @@
   <title>Contact Us | Book a Water Dispenser Repair | AquaFix UAE</title>
   <meta name="description" content="Contact AquaFix UAE for fast water dispenser & cooler repair. Call, WhatsApp or fill the form to book a same-day appointment anywhere in the UAE.">
   <meta name="keywords" content="contact water dispenser repair, book repair UAE, water cooler service Dubai">
-  <link rel="canonical" href="https://www.aquafixuae.ae/contact.php">
+  <link rel="canonical" href="https://waterdispenserrepair.ae/contact.php">
   <meta property="og:title" content="Contact Us | AquaFix UAE">
   <meta property="og:description" content="Book a water dispenser repair anywhere in the UAE — call, WhatsApp or fill the form.">
   <meta property="og:type" content="website">
@@ -22,7 +22,7 @@
   <div class="topbar">
     <div class="container">
       <div class="topbar__info">
-        <a href="tel:+971500000000">📞 +971 50 000 0000</a>
+        <a href="tel:+971501590802">📞 +971 50 159 0802</a>
         <span>🕒 Mon – Sun: 8:00 AM – 10:00 PM</span>
         <span>📍 Serving all UAE</span>
       </div>
@@ -72,19 +72,19 @@
 
           <div class="contact-info__item">
             <span class="contact-info__ic">📞</span>
-            <div><strong>Call Us</strong><a href="tel:+971500000000">+971 50 000 0000</a></div>
+            <div><strong>Call Us</strong><a href="tel:+971501590802">+971 50 159 0802</a></div>
           </div>
           <div class="contact-info__item">
             <span class="contact-info__ic">💬</span>
-            <div><strong>WhatsApp</strong><a href="https://wa.me/971500000000">+971 50 000 0000</a></div>
+            <div><strong>WhatsApp</strong><a href="https://wa.me/971501590802">+971 50 159 0802</a></div>
           </div>
           <div class="contact-info__item">
             <span class="contact-info__ic">✉️</span>
-            <div><strong>Email</strong><a href="mailto:info@aquafixuae.ae">info@aquafixuae.ae</a></div>
+            <div><strong>Email</strong><a href="mailto:info@waterdispenserrepair.ae">info@waterdispenserrepair.ae</a></div>
           </div>
           <div class="contact-info__item">
             <span class="contact-info__ic">📍</span>
-            <div><strong>Service Areas</strong><span>Dubai, Abu Dhabi, Sharjah, Ajman, RAK, Fujairah, UAQ</span></div>
+            <div><strong>Our Branches</strong><span>Dubai • Sharjah • Abu Dhabi — serving across the UAE</span></div>
           </div>
           <div class="contact-info__item">
             <span class="contact-info__ic">🕒</span>
@@ -167,7 +167,7 @@
               </div>
 
               <button type="submit" class="btn btn--primary btn--lg" style="width:100%;">Send Request</button>
-              <p class="form-note">We'll never share your details. You can also call us at <a href="tel:+971500000000">+971 50 000 0000</a>.</p>
+              <p class="form-note">We'll never share your details. You can also call us at <a href="tel:+971501590802">+971 50 159 0802</a>.</p>
             </form>
           </div>
         </div>
@@ -176,15 +176,35 @@
     </div>
   </section>
 
-  <!-- MAP -->
+  <!-- BRANCHES -->
   <section class="section section--alt" id="book">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">Coverage</span>
-        <h2>We Cover the Entire UAE</h2>
-        <p>From Dubai to Fujairah, a technician is never far away.</p>
+        <span class="eyebrow">Our Locations</span>
+        <h2>Three Branches Across the UAE</h2>
+        <p>Visit us or call your nearest branch — we serve Dubai, Sharjah, Abu Dhabi and beyond.</p>
       </div>
-      <div class="map-wrap reveal">
+      <div class="grid grid--3">
+        <article class="card reveal">
+          <div class="card__icon">📍</div>
+          <h3>Dubai</h3>
+          <p>Al Furjan, Jebel Ali Village,<br>Dubai, United Arab Emirates</p>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Al+Furjan+Jebel+Ali+Village+Dubai" target="_blank" rel="noopener" class="card__link">Get directions</a>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">📍</div>
+          <h3>Sharjah</h3>
+          <p>8CH7+HVR, Industrial Area,<br>Sharjah, United Arab Emirates</p>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=8CH7%2BHVR+Industrial+Area+Sharjah" target="_blank" rel="noopener" class="card__link">Get directions</a>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">📍</div>
+          <h3>Abu Dhabi</h3>
+          <p>M7, مصفح 7, Musaffah,<br>Abu Dhabi, United Arab Emirates</p>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Musaffah+M7+Abu+Dhabi" target="_blank" rel="noopener" class="card__link">Get directions</a>
+        </article>
+      </div>
+      <div class="map-wrap reveal" style="margin-top:36px;">
         <iframe
           title="Service area map — United Arab Emirates"
           src="https://www.openstreetmap.org/export/embed.html?bbox=51.0%2C22.6%2C56.5%2C26.1&amp;layer=mapnik"
@@ -200,7 +220,7 @@
         <div>
           <div class="footer__brand"><span class="brand__logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c-.3 0-.6.13-.79.37C9.4 4.84 5 10.6 5 14.5 5 18.64 8.13 22 12 22s7-3.36 7-7.5c0-3.9-4.4-9.66-6.21-12.13A1 1 0 0 0 12 2z"/></svg></span>AquaFix UAE</div>
           <p>Professional water dispenser and cooler repair, installation and maintenance across the United Arab Emirates.</p>
-          <div class="footer__social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="https://wa.me/971500000000" aria-label="WhatsApp">wa</a></div>
+          <div class="footer__social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="https://wa.me/971501590802" aria-label="WhatsApp">wa</a></div>
         </div>
         <div>
           <h4>Quick Links</h4>
@@ -212,7 +232,7 @@
         </div>
         <div>
           <h4>Get In Touch</h4>
-          <ul class="footer__contact"><li><span class="ic">📞</span> <a href="tel:+971500000000">+971 50 000 0000</a></li><li><span class="ic">✉️</span> <a href="mailto:info@aquafixuae.ae">info@aquafixuae.ae</a></li><li><span class="ic">📍</span> Dubai, United Arab Emirates</li><li><span class="ic">🕒</span> Mon – Sun: 8 AM – 10 PM</li></ul>
+          <ul class="footer__contact"><li><span class="ic">📞</span> <a href="tel:+971501590802">+971 50 159 0802</a></li><li><span class="ic">✉️</span> <a href="mailto:info@waterdispenserrepair.ae">info@waterdispenserrepair.ae</a></li><li><span class="ic">📍</span> Dubai • Sharjah • Abu Dhabi</li><li><span class="ic">🕒</span> Mon – Sun: 8 AM – 10 PM</li></ul>
         </div>
       </div>
       <div class="footer__bottom">
@@ -223,8 +243,8 @@
   </footer>
 
   <div class="floating">
-    <a href="https://wa.me/971500000000" class="wa" aria-label="WhatsApp">💬</a>
-    <a href="tel:+971500000000" class="call" aria-label="Call">📞</a>
+    <a href="https://wa.me/971501590802" class="wa" aria-label="WhatsApp">💬</a>
+    <a href="tel:+971501590802" class="call" aria-label="Call">📞</a>
   </div>
 
   <script src="assets/js/main.js"></script>

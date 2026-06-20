@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us | Book a Water Dispenser Repair | AquaFix UAE</title>
-  <meta name="description" content="Contact AquaFix UAE for fast water dispenser & cooler repair. Call, WhatsApp or fill the form to book a same-day appointment anywhere in the UAE.">
+  <title>Contact Us | Book a Water Dispenser Repair in UAE</title>
+  <meta name="description" content="Contact Water Dispenser Repair for fast water dispenser & cooler repair. Call, WhatsApp or fill the form to book a same-day appointment anywhere in the UAE.">
   <meta name="keywords" content="contact water dispenser repair, book repair UAE, water cooler service Dubai">
   <link rel="canonical" href="https://waterdispenserrepair.ae/contact.php">
-  <meta property="og:title" content="Contact Us | AquaFix UAE">
+  <meta property="og:title" content="Contact Us | Water Dispenser Repair">
   <meta property="og:description" content="Book a water dispenser repair anywhere in the UAE — call, WhatsApp or fill the form.">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#0277bd">
@@ -36,9 +36,9 @@
   <!-- HEADER -->
   <header class="header">
     <div class="container nav">
-      <a href="index.html" class="brand" aria-label="AquaFix UAE home">
+      <a href="index.html" class="brand" aria-label="Water Dispenser Repair home">
         <span class="brand__logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c-.3 0-.6.13-.79.37C9.4 4.84 5 10.6 5 14.5 5 18.64 8.13 22 12 22s7-3.36 7-7.5c0-3.9-4.4-9.66-6.21-12.13A1 1 0 0 0 12 2z"/></svg></span>
-        <span class="brand__name">Aqua<span>Fix</span> UAE<span class="brand__tag">Water Dispenser Repair</span></span>
+        <span class="brand__name">Water Dispenser<span> Repair</span><span class="brand__tag">UAE • Same-Day Service</span></span>
       </a>
       <nav class="nav__menu" aria-label="Main navigation">
         <a href="index.html">Home</a>
@@ -218,7 +218,7 @@
     <div class="container">
       <div class="footer__grid">
         <div>
-          <div class="footer__brand"><span class="brand__logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c-.3 0-.6.13-.79.37C9.4 4.84 5 10.6 5 14.5 5 18.64 8.13 22 12 22s7-3.36 7-7.5c0-3.9-4.4-9.66-6.21-12.13A1 1 0 0 0 12 2z"/></svg></span>AquaFix UAE</div>
+          <div class="footer__brand"><span class="brand__logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c-.3 0-.6.13-.79.37C9.4 4.84 5 10.6 5 14.5 5 18.64 8.13 22 12 22s7-3.36 7-7.5c0-3.9-4.4-9.66-6.21-12.13A1 1 0 0 0 12 2z"/></svg></span>Water Dispenser Repair</div>
           <p>Professional water dispenser and cooler repair, installation and maintenance across the United Arab Emirates.</p>
           <div class="footer__social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="https://wa.me/971501590802" aria-label="WhatsApp">wa</a></div>
         </div>
@@ -236,7 +236,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span>&copy; <span id="year">2026</span> AquaFix UAE. All rights reserved.</span>
+        <span>&copy; <span id="year">2026</span> Water Dispenser Repair. All rights reserved.</span>
         <span>Serving Dubai • Abu Dhabi • Sharjah • Ajman • RAK • Fujairah • UAQ</span>
       </div>
     </div>

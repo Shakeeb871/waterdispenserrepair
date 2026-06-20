@@ -7,7 +7,7 @@
 
 return [
     // Business identity
-    'business_name'   => 'AquaFix UAE',
+    'business_name'   => 'Water Dispenser Repair',
     'tagline'         => 'Water Dispenser Repair & Maintenance',
 
     // Contact channels

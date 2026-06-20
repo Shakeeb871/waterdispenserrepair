@@ -1,5 +1,10 @@
+# ============================================================
+# DEVELOPMENT PHASE — site is hidden from all search engines.
+# ⚠️ TO GO LIVE: replace the two lines below with:
+#     User-agent: *
+#     Allow: /
+#     Disallow: /includes/
+#     Sitemap: https://waterdispenserrepair.ae/sitemap.xml
+# ============================================================
 User-agent: *
-Allow: /
-Disallow: /includes/
-
-Sitemap: https://waterdispenserrepair.ae/sitemap.xml
+Disallow: /

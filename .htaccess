@@ -35,6 +35,9 @@ Options -Indexes
 
 # ----- Security headers -----
 <IfModule mod_headers.c>
+  # DEVELOPMENT PHASE: block all search engines from indexing.
+  # ⚠️ TO GO LIVE: delete the next line (X-Robots-Tag) to allow indexing.
+  Header set X-Robots-Tag "noindex, nofollow, noarchive"
   Header set X-Content-Type-Options "nosniff"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set Referrer-Policy "strict-origin-when-cross-origin"

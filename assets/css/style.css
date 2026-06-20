@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5 {
 .brand__name { font-weight: 700; font-size: 1.32rem; color: var(--ink); letter-spacing: -0.02em; }
 .brand__name b { color: var(--accent); font-weight: 700; }
 .brand__tag { font-size: 0.64rem; font-weight: 500; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; }
-.brand__logo-img { height: 48px; width: auto; display: block; }
+.brand__logo-img { height: 56px; width: auto; display: block; }
 
 .nav__menu { display: flex; align-items: center; gap: 4px; }
 .nav__menu > a {

@@ -38,8 +38,7 @@
   <header class="header">
     <div class="container nav">
       <a href="index.html" class="brand" aria-label="Water Dispenser Repair — home">
-        <span class="brand__logo" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s5.5 6 5.5 10a5.5 5.5 0 0 1-11 0C6.5 9 12 3 12 3Z"/><path d="M9.5 13.5a2.5 2.5 0 0 0 2.5 2.5"/></svg></span>
-        <span class="brand__text"><span class="brand__name">Water Dispenser<b> Repair</b></span><span class="brand__tag">UAE • Same-Day Service</span></span>
+        <img src="assets/img/logo.png" alt="Water Dispenser Repair — UAE" class="brand__logo-img" width="150" height="56">
       </a>
       <nav class="nav__menu" aria-label="Main navigation">
         <a href="index.html">Home</a>

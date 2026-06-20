@@ -628,3 +628,11 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 480px) {
   .stats-light { grid-template-columns: 1fr; }
 }
+
+/* ---------- Footer branches row ---------- */
+.footer__branches { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; padding-bottom: 42px; margin-bottom: 46px; border-bottom: 1px solid rgba(255,255,255,.09); }
+.fbranch { display: flex; gap: 13px; align-items: flex-start; }
+.fbranch .ic { color: var(--accent); flex-shrink: 0; font-size: 1.15rem; margin-top: 2px; }
+.fbranch strong { display: block; color: #fff; font-size: .98rem; margin-bottom: 4px; }
+.fbranch span { display: block; font-size: .88rem; color: rgba(255,255,255,.65); line-height: 1.6; }
+@media (max-width: 768px) { .footer__branches { grid-template-columns: 1fr; gap: 20px; } }

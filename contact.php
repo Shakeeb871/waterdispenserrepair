@@ -6,89 +6,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow"><!-- DEV PHASE: remove this line to allow Google indexing when going live -->
   <title>Contact Us | Book a Water Dispenser Repair in UAE</title>
-  <meta name="description" content="Contact Water Dispenser Repair for fast water dispenser & cooler repair. Call, WhatsApp or fill the form to book a same-day appointment anywhere in the UAE.">
+  <meta name="description" content="Contact us for fast water dispenser & cooler repair. Call, WhatsApp or fill the form to book a same-day appointment anywhere in the UAE.">
   <meta name="keywords" content="contact water dispenser repair, book repair UAE, water cooler service Dubai">
   <link rel="canonical" href="https://waterdispenserrepair.ae/contact.php">
   <meta property="og:title" content="Contact Us | Water Dispenser Repair">
   <meta property="og:description" content="Book a water dispenser repair anywhere in the UAE — call, WhatsApp or fill the form.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#0277bd">
+  <meta name="theme-color" content="#0c1c2c">
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <!-- TOP BAR -->
   <div class="topbar">
     <div class="container">
       <div class="topbar__info">
-        <a href="tel:+971501590802">📞 +971 50 159 0802</a>
-        <span>🕒 Mon – Sun: 8:00 AM – 10:00 PM</span>
-        <span>📍 Serving all UAE</span>
+        <a href="mailto:info@waterdispenserrepair.ae"><i>✉</i> info@waterdispenserrepair.ae</a>
+        <span class="hide-sm"><i>◷</i> Mon – Sun: 8:00 AM – 10:00 PM</span>
+        <span class="hide-sm"><i>⚲</i> Serving all Emirates</span>
       </div>
       <div class="topbar__social">
-        <a href="#" aria-label="Facebook">Facebook</a>
-        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="https://wa.me/971501590802" aria-label="WhatsApp">w</a>
       </div>
     </div>
   </div>
 
-  <!-- HEADER -->
   <header class="header">
     <div class="container nav">
-      <a href="index.html" class="brand" aria-label="Water Dispenser Repair home">
-        <span class="brand__logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c-.3 0-.6.13-.79.37C9.4 4.84 5 10.6 5 14.5 5 18.64 8.13 22 12 22s7-3.36 7-7.5c0-3.9-4.4-9.66-6.21-12.13A1 1 0 0 0 12 2z"/></svg></span>
-        <span class="brand__name">Water Dispenser<span> Repair</span><span class="brand__tag">UAE • Same-Day Service</span></span>
+      <a href="index.html" class="brand" aria-label="Water Dispenser Repair — home">
+        <span class="brand__logo" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s5.5 6 5.5 10a5.5 5.5 0 0 1-11 0C6.5 9 12 3 12 3Z"/><path d="M9.5 13.5a2.5 2.5 0 0 0 2.5 2.5"/></svg></span>
+        <span class="brand__text"><span class="brand__name">Water Dispenser<b> Repair</b></span><span class="brand__tag">UAE • Same-Day Service</span></span>
       </a>
       <nav class="nav__menu" aria-label="Main navigation">
         <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
         <a href="about.html">About</a>
+        <a href="services.html">Services</a>
         <a href="contact.php" class="active">Contact</a>
-        <a href="contact.php" class="btn btn--primary nav__cta">Book a Repair</a>
       </nav>
+      <div class="nav__actions">
+        <a href="tel:+971501590802" class="nav__phone">
+          <span class="ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span>
+          <span><small>Call us 24/7</small><strong>+971 50 159 0802</strong></span>
+        </a>
+        <a href="contact.php" class="btn btn--primary">Get a Quote</a>
+      </div>
       <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </header>
   <div class="nav-overlay"></div>
 
-  <!-- PAGE HERO -->
   <section class="page-hero">
     <div class="container">
       <h1>Contact &amp; Book a Repair</h1>
-      <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+      <p class="breadcrumb"><a href="index.html">Home</a> <span>/</span> Contact</p>
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section class="section">
     <div class="container">
       <div class="contact-grid">
 
         <!-- INFO -->
         <div class="reveal">
-          <h2 style="margin-bottom:8px;">Get In Touch</h2>
-          <p style="color:var(--color-muted);margin-bottom:20px;">Reach us any way you like — we respond fast, 7 days a week.</p>
+          <span class="eyebrow">Get In Touch</span>
+          <h2 class="section-title" style="font-size:1.9rem;">We're Here to Help, 7 Days a Week</h2>
+          <p style="color:var(--muted);margin-bottom:24px;">Reach us any way you like — we respond fast and book the earliest slot for you.</p>
 
-          <div class="contact-info__item">
-            <span class="contact-info__ic">📞</span>
-            <div><strong>Call Us</strong><a href="tel:+971501590802">+971 50 159 0802</a></div>
+          <div class="contact-card">
+            <span class="contact-card__ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span>
+            <div><strong>Call &amp; WhatsApp</strong><a href="tel:+971501590802">+971 50 159 0802</a></div>
           </div>
-          <div class="contact-info__item">
-            <span class="contact-info__ic">💬</span>
-            <div><strong>WhatsApp</strong><a href="https://wa.me/971501590802">+971 50 159 0802</a></div>
-          </div>
-          <div class="contact-info__item">
-            <span class="contact-info__ic">✉️</span>
+          <div class="contact-card">
+            <span class="contact-card__ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
             <div><strong>Email</strong><a href="mailto:info@waterdispenserrepair.ae">info@waterdispenserrepair.ae</a></div>
           </div>
-          <div class="contact-info__item">
-            <span class="contact-info__ic">📍</span>
+          <div class="contact-card">
+            <span class="contact-card__ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
             <div><strong>Our Branches</strong><span>Dubai • Sharjah • Abu Dhabi — serving across the UAE</span></div>
           </div>
-          <div class="contact-info__item">
-            <span class="contact-info__ic">🕒</span>
+          <div class="contact-card">
+            <span class="contact-card__ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
             <div><strong>Working Hours</strong><span>Mon – Sun: 8:00 AM – 10:00 PM</span></div>
           </div>
         </div>
@@ -96,19 +97,18 @@
         <!-- FORM -->
         <div class="reveal">
           <div class="form-card">
-            <h2 style="margin-bottom:6px;">Request a Repair</h2>
-            <p style="color:var(--color-muted);margin-bottom:22px;">Fill in the details and we'll get back to you shortly.</p>
+            <h2 class="section-title" style="font-size:1.6rem;margin-bottom:6px;">Request a Repair</h2>
+            <p style="color:var(--muted);margin-bottom:24px;">Fill in the details and we'll get back to you shortly.</p>
 
             <?php if ($formStatus === 'success'): ?>
-              <div class="alert alert--success">✅ Thank you! Your request has been sent. We'll contact you very soon.</div>
+              <div class="alert alert--success">✓ Thank you! Your request has been sent. We'll contact you very soon.</div>
             <?php elseif ($formStatus === 'error' && empty($formErrors)): ?>
-              <div class="alert alert--error">⚠️ Sorry, something went wrong sending your message. Please call or WhatsApp us instead.</div>
+              <div class="alert alert--error">! Sorry, something went wrong sending your message. Please call or WhatsApp us instead.</div>
             <?php elseif ($formStatus === 'error'): ?>
-              <div class="alert alert--error">⚠️ Please correct the highlighted fields and try again.</div>
+              <div class="alert alert--error">! Please correct the highlighted fields and try again.</div>
             <?php endif; ?>
 
             <form id="contactForm" action="contact.php#book" method="POST" novalidate>
-              <!-- Honeypot (hidden from users) -->
               <div style="position:absolute;left:-9999px;" aria-hidden="true">
                 <label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
               </div>
@@ -178,74 +178,59 @@
   </section>
 
   <!-- BRANCHES -->
-  <section class="section section--alt" id="book">
+  <section class="section section--soft" id="book">
     <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Our Locations</span>
-        <h2>Three Branches Across the UAE</h2>
+      <div class="section-head">
+        <span class="eyebrow" style="justify-content:center;">Our Locations</span>
+        <h2 class="section-title">Three Branches Across the UAE</h2>
         <p>Visit us or call your nearest branch — we serve Dubai, Sharjah, Abu Dhabi and beyond.</p>
       </div>
       <div class="grid grid--3">
-        <article class="card reveal">
-          <div class="card__icon">📍</div>
+        <article class="service reveal">
+          <div class="service__ic" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
           <h3>Dubai</h3>
           <p>Al Furjan, Jebel Ali Village,<br>Dubai, United Arab Emirates</p>
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Al+Furjan+Jebel+Ali+Village+Dubai" target="_blank" rel="noopener" class="card__link">Get directions</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Al+Furjan+Jebel+Ali+Village+Dubai" target="_blank" rel="noopener" class="service__more">Get directions</a>
         </article>
-        <article class="card reveal">
-          <div class="card__icon">📍</div>
+        <article class="service reveal">
+          <div class="service__ic" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
           <h3>Sharjah</h3>
           <p>8CH7+HVR, Industrial Area,<br>Sharjah, United Arab Emirates</p>
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=8CH7%2BHVR+Industrial+Area+Sharjah" target="_blank" rel="noopener" class="card__link">Get directions</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=8CH7%2BHVR+Industrial+Area+Sharjah" target="_blank" rel="noopener" class="service__more">Get directions</a>
         </article>
-        <article class="card reveal">
-          <div class="card__icon">📍</div>
+        <article class="service reveal">
+          <div class="service__ic" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
           <h3>Abu Dhabi</h3>
           <p>M7, مصفح 7, Musaffah,<br>Abu Dhabi, United Arab Emirates</p>
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Musaffah+M7+Abu+Dhabi" target="_blank" rel="noopener" class="card__link">Get directions</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Musaffah+M7+Abu+Dhabi" target="_blank" rel="noopener" class="service__more">Get directions</a>
         </article>
       </div>
-      <div class="map-wrap reveal" style="margin-top:36px;">
-        <iframe
-          title="Service area map — United Arab Emirates"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=51.0%2C22.6%2C56.5%2C26.1&amp;layer=mapnik"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-wrap reveal" style="margin-top:40px;">
+        <iframe title="Service area map — United Arab Emirates" src="https://www.openstreetmap.org/export/embed.html?bbox=51.0%2C22.6%2C56.5%2C26.1&amp;layer=mapnik" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="footer__grid">
         <div>
-          <div class="footer__brand"><span class="brand__logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c-.3 0-.6.13-.79.37C9.4 4.84 5 10.6 5 14.5 5 18.64 8.13 22 12 22s7-3.36 7-7.5c0-3.9-4.4-9.66-6.21-12.13A1 1 0 0 0 12 2z"/></svg></span>Water Dispenser Repair</div>
+          <div class="footer__brand"><span class="brand__logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s5.5 6 5.5 10a5.5 5.5 0 0 1-11 0C6.5 9 12 3 12 3Z"/></svg></span>Water Dispenser Repair</div>
           <p>Professional water dispenser and cooler repair, installation and maintenance across the United Arab Emirates.</p>
-          <div class="footer__social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="https://wa.me/971501590802" aria-label="WhatsApp">wa</a></div>
+          <div class="footer__social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="https://wa.me/971501590802" aria-label="WhatsApp">w</a></div>
         </div>
-        <div>
-          <h4>Quick Links</h4>
-          <ul class="footer__links"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.php">Contact</a></li></ul>
-        </div>
-        <div>
-          <h4>Services</h4>
-          <ul class="footer__links"><li><a href="services.html">Cooling Repair</a></li><li><a href="services.html">Heating Repair</a></li><li><a href="services.html">Leak Fixing</a></li><li><a href="services.html">Maintenance</a></li></ul>
-        </div>
-        <div>
-          <h4>Get In Touch</h4>
-          <ul class="footer__contact"><li><span class="ic">📞</span> <a href="tel:+971501590802">+971 50 159 0802</a></li><li><span class="ic">✉️</span> <a href="mailto:info@waterdispenserrepair.ae">info@waterdispenserrepair.ae</a></li><li><span class="ic">📍</span> Dubai • Sharjah • Abu Dhabi</li><li><span class="ic">🕒</span> Mon – Sun: 8 AM – 10 PM</li></ul>
-        </div>
+        <div><h4>Quick Links</h4><ul class="footer__links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="contact.php">Contact</a></li></ul></div>
+        <div><h4>Our Services</h4><ul class="footer__links"><li><a href="services.html">Cooling Repair</a></li><li><a href="services.html">Heating Repair</a></li><li><a href="services.html">Leak Fixing</a></li><li><a href="services.html">Maintenance</a></li></ul></div>
+        <div><h4>Get In Touch</h4><ul class="footer__contact"><li><span class="ic">✆</span> <a href="tel:+971501590802">+971 50 159 0802</a></li><li><span class="ic">✉</span> <a href="mailto:info@waterdispenserrepair.ae">info@waterdispenserrepair.ae</a></li><li><span class="ic">⚲</span> Dubai • Sharjah • Abu Dhabi</li><li><span class="ic">◷</span> Mon – Sun: 8 AM – 10 PM</li></ul></div>
       </div>
-      <div class="footer__bottom">
-        <span>&copy; <span id="year">2026</span> Water Dispenser Repair. All rights reserved.</span>
-        <span>Serving Dubai • Abu Dhabi • Sharjah • Ajman • RAK • Fujairah • UAQ</span>
-      </div>
+      <div class="footer__bottom"><span>&copy; <span id="year">2026</span> Water Dispenser Repair. All rights reserved.</span><span>Serving Dubai • Abu Dhabi • Sharjah • Ajman • RAK • Fujairah • UAQ</span></div>
     </div>
   </footer>
 
   <div class="floating">
-    <a href="https://wa.me/971501590802" class="wa" aria-label="WhatsApp">💬</a>
-    <a href="tel:+971501590802" class="call" aria-label="Call">📞</a>
+    <a href="#" class="top" aria-label="Back to top">↑</a>
+    <a href="https://wa.me/971501590802" class="wa" aria-label="WhatsApp">✆</a>
+    <a href="tel:+971501590802" class="call" aria-label="Call">✆</a>
   </div>
 
   <script src="assets/js/main.js"></script>

@@ -1,11 +1,11 @@
 {
-  "name": "AquaFix UAE — Water Dispenser Repair",
-  "short_name": "AquaFix UAE",
+  "name": "Water Dispenser Repair — UAE",
+  "short_name": "WD Repair",
   "description": "Water dispenser and cooler repair across the UAE.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0277bd",
+  "theme_color": "#0c1c2c",
   "icons": [
     {
       "src": "assets/img/favicon.svg",

@@ -1,4 +1,4 @@
-# AquaFix UAE — Water Dispenser Repair Website
+# Water Dispenser Repair — Water Dispenser Repair Website
 
 A fast, responsive, SEO-ready marketing website for a water dispenser & cooler
 repair business in the UAE. Built as **static HTML/CSS/JS with a PHP contact
@@ -42,7 +42,7 @@ Update them, then do a find-and-replace across the HTML files for the same value
 | Phone number | `config.php` + all pages (`+971501590802`) | `+971 50 159 0802` |
 | WhatsApp number | all pages (`wa.me/971501590802`) | `971501590802` |
 | Email | `config.php` + all pages | `info@waterdispenserrepair.ae` |
-| Business name | all pages | `AquaFix UAE` |
+| Business name | all pages | `Water Dispenser Repair` |
 | Domain | `config.php`, `sitemap.xml`, `robots.txt`, meta tags | `waterdispenserrepair.ae` |
 | Social links | header / footer (`href="#"`) | `#` |
 | Reviews & stats | `index.html`, `about.html` | sample content |
@@ -125,4 +125,4 @@ php -S localhost:8000
 
 ## 📄 License
 
-Proprietary — built for the AquaFix UAE business. All rights reserved.
+Proprietary — built for the Water Dispenser Repair business. All rights reserved.

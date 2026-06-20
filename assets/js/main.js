@@ -125,3 +125,14 @@
     });
   }
 })();
+
+/* Nav dropdown — toggle on tap for mobile */
+document.querySelectorAll(".nav__droplink").forEach(function (d) {
+  d.addEventListener("click", function (e) {
+    if (window.innerWidth <= 768) {
+      e.preventDefault();
+      var item = d.closest(".nav__item");
+      if (item) item.classList.toggle("is-open");
+    }
+  });
+});

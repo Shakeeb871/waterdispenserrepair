@@ -636,3 +636,23 @@ h1, h2, h3, h4, h5 {
 .fbranch strong { display: block; color: #fff; font-size: .98rem; margin-bottom: 4px; }
 .fbranch span { display: block; font-size: .88rem; color: rgba(255,255,255,.65); line-height: 1.6; }
 @media (max-width: 768px) { .footer__branches { grid-template-columns: 1fr; gap: 20px; } }
+
+/* ---------- Nav dropdown (Brands mega-menu) ---------- */
+.nav__item { position: relative; display: flex; align-items: center; }
+.nav__droplink { color: var(--heading); font-weight: 500; font-size: .96rem; padding: 10px 16px; border-radius: var(--radius); display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+.nav__droplink:hover, .nav__droplink.active { color: var(--accent); }
+.nav__droplink .caret { display: inline-flex; transition: transform var(--t); }
+.nav__item:hover .nav__droplink .caret { transform: rotate(180deg); }
+.nav__sub { position: absolute; top: calc(100% + 8px); left: 0; min-width: 470px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-md); padding: 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 2px; opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity var(--t), transform var(--t), visibility var(--t); z-index: 200; }
+.nav__item:hover .nav__sub { opacity: 1; visibility: visible; transform: translateY(0); }
+.nav__sub a { padding: 10px 14px; border-radius: var(--radius); font-size: .9rem; color: var(--heading); font-weight: 500; }
+.nav__sub a:hover, .nav__sub a.active { background: var(--accent-soft); color: var(--accent); }
+
+@media (max-width: 768px) {
+  .nav__item { width: 100%; flex-direction: column; align-items: stretch; }
+  .nav__droplink { width: 100%; justify-content: space-between; padding: 14px 12px; border-bottom: 1px solid var(--line); }
+  .nav__sub { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; border: none; min-width: 0; grid-template-columns: 1fr; padding: 0; gap: 0; max-height: 0; overflow: hidden; transition: max-height .35s ease; }
+  .nav__item.is-open .nav__sub { max-height: 1200px; padding: 2px 0 8px; }
+  .nav__sub a { padding: 12px 12px 12px 26px; border-bottom: 1px solid var(--line); }
+  .nav__item.is-open .nav__droplink .caret { transform: rotate(180deg); }
+}

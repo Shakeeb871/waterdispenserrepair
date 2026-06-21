@@ -224,7 +224,7 @@
         <h2 class="section-title">Three Branches Across the UAE</h2>
         <p>Visit us or call your nearest branch — we serve Dubai, Sharjah, Abu Dhabi and beyond.</p>
       </div>
-      <div class="grid grid--3">
+      <div class="grid grid--4">
         <article class="service reveal">
           <div class="service__ic" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
           <h3>Dubai</h3>

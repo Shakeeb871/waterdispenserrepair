@@ -704,3 +704,41 @@ h1, h2, h3, h4, h5 {
 
 /* Circular icon variant (problem cards) */
 .service__ic--round { border-radius: 50%; }
+
+/* =====================================================================
+   COMPACT REFINEMENTS — smaller text, tighter grids, smaller icons
+   ===================================================================== */
+html { font-size: 13px; }
+:root { --text: #20272f; }                 /* a touch more black */
+
+/* tighter section rhythm */
+.section { padding: 58px 0; }
+.section--sm { padding: 42px 0; }
+.section-head { margin-bottom: 32px; }
+.about2 { gap: 40px; }
+
+/* tighter card grids */
+.grid { gap: 18px; }
+.service { padding: 24px 20px; }
+.service h3 { margin-bottom: 9px; }
+.service p { font-size: 0.92rem; }
+.svc-card__body { padding: 20px 18px 22px; }
+.fcard { padding: 22px 18px; }
+.price-card { padding: 28px 24px; }
+.post-card__body { padding: 20px; }
+
+/* smaller icons */
+.service__ic { width: 48px; height: 48px; margin-bottom: 13px; border-radius: 11px; }
+.service__ic svg { width: 22px; height: 22px; }
+.service__ic--round { border-radius: 50%; }
+.fcard__ic { width: 42px; height: 42px; margin-bottom: 12px; }
+.fcard__ic svg { width: 20px; height: 20px; }
+.contact-card__ic { width: 46px; height: 46px; }
+.contact-card__ic svg { width: 20px; height: 20px; }
+.feature-row__ic { width: 46px; height: 46px; }
+.feature-row__ic svg { width: 22px; height: 22px; }
+.step__num { width: 54px; height: 54px; font-size: 1.15rem; margin-bottom: 16px; }
+.about-visual__main svg, .why-visual svg { width: 110px; height: 110px; }
+
+/* slightly smaller body copy in cards/lists */
+.check-list li { font-size: 0.92rem; }

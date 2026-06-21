@@ -701,3 +701,6 @@ h1, h2, h3, h4, h5 {
 .auth-logo img { max-height: 48px; width: auto; }
 .auth-card__note { text-align: center; font-size: .76rem; color: var(--muted); margin: 16px 0 0; }
 @media (max-width: 380px) { .auth-grid { grid-template-columns: 1fr; } }
+
+/* Circular icon variant (problem cards) */
+.service__ic--round { border-radius: 50%; }

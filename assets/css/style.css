@@ -885,3 +885,12 @@ html { font-size: 13px; }
 .area-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 22px; }
 .area-chips span { display: inline-flex; align-items: center; gap: 7px; background: #fff; border: 1px solid var(--line); border-radius: 50px; padding: 7px 14px; font-size: 0.82rem; font-weight: 500; color: var(--heading); box-shadow: var(--shadow-sm); }
 .area-chips span::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); flex: 0 0 auto; }
+
+/* ===== Consistent paragraph spacing in long-form content (site-wide) ===== */
+.lead { font-size: 1.06rem; color: var(--heading); font-weight: 500; }
+.brandlayout__main > p,
+.about2__body > p,
+.prose > p { margin-bottom: 16px; line-height: 1.8; }
+.brandlayout__main > p:last-child,
+.about2__body > p:last-child,
+.prose > p:last-child { margin-bottom: 0; }

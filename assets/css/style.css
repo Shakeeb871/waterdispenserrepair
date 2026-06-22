@@ -778,13 +778,13 @@ html { font-size: 13px; }
 .step p strong { color: var(--heading); font-weight: 700; }
 
 /* ===== Pro Tips — prominent prevention panel ===== */
-.protips { display: flex; gap: 22px; align-items: flex-start; max-width: 940px; margin: 38px auto 0; padding: 30px 34px; background: linear-gradient(135deg, var(--ink) 0%, #11304b 100%); border-radius: var(--radius); box-shadow: var(--shadow); position: relative; overflow: hidden; }
-.protips::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--accent); }
-.protips__icon { flex: 0 0 auto; width: 60px; height: 60px; display: grid; place-items: center; border-radius: 50%; background: rgba(255,255,255,.08); color: #fff; }
-.protips__title { color: #fff; font-size: 1.28rem; margin-bottom: 8px; }
-.protips__body > p { color: rgba(255,255,255,.78); font-size: 0.96rem; margin-bottom: 14px; }
+.protips { display: flex; gap: 22px; align-items: flex-start; max-width: 940px; margin: 38px auto 0; padding: 30px 34px; background: #fef8e0; border: 2px solid #f6a510; border-radius: var(--radius); box-shadow: var(--shadow-sm); position: relative; overflow: hidden; }
+.protips::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: #f6a510; }
+.protips__icon { flex: 0 0 auto; width: 60px; height: 60px; display: grid; place-items: center; border-radius: 50%; background: #f6a510; color: #fff; }
+.protips__title { color: var(--heading); font-size: 1.28rem; margin-bottom: 8px; }
+.protips__body > p { color: var(--text); font-size: 0.96rem; margin-bottom: 14px; }
 .protips__list { display: grid; gap: 12px; }
-.protips__list li { position: relative; padding-left: 28px; color: rgba(255,255,255,.82); font-size: 0.94rem; line-height: 1.6; }
-.protips__list li::before { content: ""; position: absolute; left: 0; top: 6px; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(23,99,166,.22); }
-.protips__list li strong { color: #fff; font-weight: 700; }
+.protips__list li { position: relative; padding-left: 28px; color: var(--text); font-size: 0.94rem; line-height: 1.6; }
+.protips__list li::before { content: ""; position: absolute; left: 0; top: 6px; width: 14px; height: 14px; border-radius: 50%; background: #f6a510; box-shadow: 0 0 0 4px rgba(246,165,16,.22); }
+.protips__list li strong { color: var(--heading); font-weight: 700; }
 @media (max-width: 640px) { .protips { flex-direction: column; gap: 16px; padding: 26px 22px; } }

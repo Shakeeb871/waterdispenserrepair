@@ -762,3 +762,17 @@ html { font-size: 13px; }
 .mini-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); margin: 14px 0 8px; }
 .service .card-lead { margin-bottom: 8px; }
 .service > p { font-size: 0.92rem; }
+
+/* ===== Site-wide consistent body text + bold (match Common Problems) ===== */
+/* Every card section uses the same body colour and the same bold treatment,
+   so no section reads in a different colour from the rest of the site. */
+.service p,
+.feature-row p,
+.step p,
+.svc-card__body p,
+.fcard p { color: var(--text); }
+.service p strong,
+.service strong,
+.feature-row p strong,
+.svc-card__body p strong,
+.step p strong { color: var(--heading); font-weight: 700; }

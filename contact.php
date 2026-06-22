@@ -63,7 +63,6 @@
             <a href="/brands/nikai/">Nikai</a>
             <a href="/brands/super-general/">Super General</a>
             <a href="/brands/crownline/">Crownline</a>
-            <a href="/brands/o-general/">O General</a>
             <a href="/brands/lg/">LG</a>
             <a href="/brands/samsung/">Samsung</a>
             <a href="/brands/electrolux/">Electrolux</a>

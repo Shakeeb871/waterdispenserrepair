@@ -6,7 +6,12 @@ deployment:
     - /bin/mkdir -p $DEPLOYPATH/assets
     - /bin/mkdir -p $DEPLOYPATH/includes
     - /bin/mkdir -p $DEPLOYPATH/blog
-    # All root HTML pages (home, about, services, 404, every brand-*, every location)
+    - /bin/mkdir -p $DEPLOYPATH/brands
+    - /bin/mkdir -p $DEPLOYPATH/locations
+    # Remove old flat brand/location files left by earlier deploys (now in folders)
+    - /bin/rm -f $DEPLOYPATH/brand-*.html
+    - /bin/rm -f $DEPLOYPATH/water-dispenser-repair-*.html
+    # Core root HTML pages (home, about, services, 404)
     - /bin/cp *.html           $DEPLOYPATH
     # PHP, config and SEO files
     - /bin/cp contact.php      $DEPLOYPATH
@@ -19,3 +24,5 @@ deployment:
     - /bin/cp -R assets/.      $DEPLOYPATH/assets/
     - /bin/cp -R includes/.    $DEPLOYPATH/includes/
     - /bin/cp -R blog/.        $DEPLOYPATH/blog/
+    - /bin/cp -R brands/.      $DEPLOYPATH/brands/
+    - /bin/cp -R locations/.   $DEPLOYPATH/locations/

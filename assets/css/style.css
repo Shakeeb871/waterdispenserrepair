@@ -913,3 +913,8 @@ a.service:hover .brand-link__cta { text-decoration: underline; }
 .footer__legal a { color: rgba(255,255,255,.78); font-size: .9rem; }
 .footer__legal a:hover { color: #fff; }
 .footer__legal span { color: rgba(255,255,255,.3); }
+
+/* ===== Footer developer credit ===== */
+.footer__credit { text-align: center; padding: 4px 0 2px; font-size: .85rem; color: rgba(255,255,255,.6); }
+.footer__credit a { color: rgba(255,255,255,.85); font-weight: 600; }
+.footer__credit a:hover { color: #fff; }

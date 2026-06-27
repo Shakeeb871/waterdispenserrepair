@@ -18,8 +18,8 @@
   <meta name="twitter:image" content="https://waterdispenserrepair.ae/assets/img/og-image.jpg">
   <meta property="og:url" content="https://waterdispenserrepair.ae/contact/">
   <meta property="og:image" content="https://waterdispenserrepair.ae/assets/img/og-image.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="1500">
+  <meta property="og:image:height" content="599">
   <meta property="og:image:alt" content="Water Dispenser Repair Dubai — certified same-day technician service">
   <meta name="twitter:title" content="Contact Us | Water Dispenser Repair">
   <meta name="twitter:description" content="Book a water dispenser repair anywhere in the UAE — call, WhatsApp or fill the form.">

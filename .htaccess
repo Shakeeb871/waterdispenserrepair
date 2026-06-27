@@ -5,19 +5,17 @@
 # ----- Default document -----
 DirectoryIndex index.html index.php
 
-# ----- Force HTTPS (enable after SSL is installed in cPanel) -----
-# <IfModule mod_rewrite.c>
-#   RewriteEngine On
-#   RewriteCond %{HTTPS} off
-#   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-# </IfModule>
-
-# ----- Force www (optional — uncomment to enable) -----
-# <IfModule mod_rewrite.c>
-#   RewriteEngine On
-#   RewriteCond %{HTTP_HOST} !^www\. [NC]
-#   RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-# </IfModule>
+# ----- Canonical domain: force HTTPS + non-www (preferred version) -----
+# A single 301 sends http->https AND www->non-www to one preferred host
+# (https://waterdispenserrepair.ae/), matching the rel="canonical" tags so
+# search engines index ONE version only and link equity is never split.
+# Requires an SSL certificate — cPanel AutoSSL installs one automatically.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^ https://waterdispenserrepair.ae%{REQUEST_URI} [R=301,L]
+</IfModule>
 
 # ----- Custom error pages -----
 ErrorDocument 404 /404.html
@@ -85,6 +83,8 @@ Options -Indexes
   Header set X-Frame-Options "SAMEORIGIN"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  # HSTS — enforce HTTPS in browsers (only honoured on secure responses)
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </IfModule>
 
 # ----- GZIP compression -----

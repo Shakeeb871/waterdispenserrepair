@@ -5,14 +5,17 @@ deployment:
     - export DEPLOYPATH=$HOME/public_html/
     - /bin/mkdir -p $DEPLOYPATH/assets
     - /bin/mkdir -p $DEPLOYPATH/includes
-    - /bin/cp index.html       $DEPLOYPATH
-    - /bin/cp services.html    $DEPLOYPATH
-    - /bin/cp about.html       $DEPLOYPATH
+    - /bin/mkdir -p $DEPLOYPATH/blog
+    # All root HTML pages (home, about, services, 404, every brand-*, every location)
+    - /bin/cp *.html           $DEPLOYPATH
+    # PHP, config and SEO files
     - /bin/cp contact.php      $DEPLOYPATH
-    - /bin/cp 404.html         $DEPLOYPATH
     - /bin/cp robots.txt       $DEPLOYPATH
     - /bin/cp sitemap.xml      $DEPLOYPATH
     - /bin/cp site.webmanifest $DEPLOYPATH
+    - /bin/cp llms.txt         $DEPLOYPATH
     - /bin/cp .htaccess        $DEPLOYPATH
+    # Directories
     - /bin/cp -R assets/.      $DEPLOYPATH/assets/
     - /bin/cp -R includes/.    $DEPLOYPATH/includes/
+    - /bin/cp -R blog/.        $DEPLOYPATH/blog/

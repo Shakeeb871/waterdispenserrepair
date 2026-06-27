@@ -900,3 +900,16 @@ a.service { text-decoration: none; color: inherit; display: flex; flex-direction
 a.service h3 { color: var(--heading); }
 a.service .brand-link__cta { margin-top: auto; padding-top: 12px; color: var(--accent); font-weight: 600; font-size: .92rem; letter-spacing: .2px; }
 a.service:hover .brand-link__cta { text-decoration: underline; }
+
+/* ===== Legal / policy pages (prose) ===== */
+.prose h2 { font-size: 1.32rem; color: var(--heading); margin: 34px 0 12px; }
+.prose h2:first-of-type { margin-top: 8px; }
+.prose-list { margin: 6px 0 16px; padding-left: 22px; }
+.prose-list li { color: var(--text); line-height: 1.8; margin-bottom: 8px; }
+.prose a { color: var(--accent); }
+
+/* ===== Footer legal links row ===== */
+.footer__legal { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 16px; padding: 22px 0 4px; }
+.footer__legal a { color: rgba(255,255,255,.78); font-size: .9rem; }
+.footer__legal a:hover { color: #fff; }
+.footer__legal span { color: rgba(255,255,255,.3); }

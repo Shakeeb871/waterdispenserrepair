@@ -36,6 +36,7 @@
   <script type="application/ld+json">
   {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://waterdispenserrepair.ae/"}, {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://waterdispenserrepair.ae/contact/"}]}
   </script>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="i6041B/dwASsMY+57MH5lw" async></script>
 </head>
 <body>
 

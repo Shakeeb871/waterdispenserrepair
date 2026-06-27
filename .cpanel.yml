@@ -17,6 +17,9 @@ deployment:
     - /bin/cp contact.php      $DEPLOYPATH
     - /bin/cp robots.txt       $DEPLOYPATH
     - /bin/cp sitemap.xml      $DEPLOYPATH
+    - /bin/cp sitemap-blog.xml $DEPLOYPATH
+    - /bin/cp sitemap-brands.xml $DEPLOYPATH
+    - /bin/cp sitemap-locations.xml $DEPLOYPATH
     - /bin/cp site.webmanifest $DEPLOYPATH
     - /bin/cp llms.txt         $DEPLOYPATH
     - /bin/cp .htaccess        $DEPLOYPATH

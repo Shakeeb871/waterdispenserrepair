@@ -6,3 +6,6 @@ Allow: /
 Disallow: /includes/
 
 Sitemap: https://waterdispenserrepair.ae/sitemap.xml
+Sitemap: https://waterdispenserrepair.ae/sitemap-blog.xml
+Sitemap: https://waterdispenserrepair.ae/sitemap-brands.xml
+Sitemap: https://waterdispenserrepair.ae/sitemap-locations.xml

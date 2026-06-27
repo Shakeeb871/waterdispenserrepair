@@ -8,6 +8,8 @@
   <meta name="description" content="Contact us for fast water dispenser & cooler repair. Call, WhatsApp or fill the form to book a same-day appointment anywhere in the UAE.">
   <meta name="keywords" content="contact water dispenser repair, book repair UAE, water cooler service Dubai">
   <link rel="canonical" href="https://waterdispenserrepair.ae/contact/">
+  <link rel="alternate" hreflang="en-AE" href="https://waterdispenserrepair.ae/contact/">
+  <link rel="alternate" hreflang="x-default" href="https://waterdispenserrepair.ae/contact/">
   <meta property="og:title" content="Contact Us | Water Dispenser Repair">
   <meta property="og:description" content="Book a water dispenser repair anywhere in the UAE — call, WhatsApp or fill the form.">
   <meta property="og:type" content="website">

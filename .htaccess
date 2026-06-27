@@ -87,9 +87,6 @@ Options -Indexes
 
 # ----- Security headers -----
 <IfModule mod_headers.c>
-  # DEVELOPMENT PHASE: block all search engines from indexing.
-  # ⚠️ TO GO LIVE: delete the next line (X-Robots-Tag) to allow indexing.
-  Header set X-Robots-Tag "noindex, nofollow, noarchive"
   Header set X-Content-Type-Options "nosniff"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
@@ -103,29 +100,33 @@ Options -Indexes
   AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json text/xml application/xml image/svg+xml
 </IfModule>
 
-# ----- Browser caching -----
-# DEVELOPMENT PHASE: code/markup are NOT cached so every change shows instantly.
-# ⚠️ TO GO LIVE (faster site): change the css/js/html lines below to longer times,
-#    e.g. "access plus 1 week" for css/js and "access plus 1 day" for html.
+# ----- Browser caching (production) -----
+# CSS/JS carry a ?v= cache-buster, so they can be cached long and safely.
+# HTML is kept short so content edits appear quickly; PHP is never cached.
 <IfModule mod_expires.c>
   ExpiresActive On
-  # Images can cache (logo/photos rarely change)
-  ExpiresByType image/svg+xml          "access plus 1 week"
-  ExpiresByType image/jpeg             "access plus 1 week"
-  ExpiresByType image/png              "access plus 1 week"
-  ExpiresByType image/webp             "access plus 1 week"
-  # Code & markup — no caching during development
-  ExpiresByType text/css               "access plus 0 seconds"
-  ExpiresByType application/javascript "access plus 0 seconds"
-  ExpiresByType text/html              "access plus 0 seconds"
+  ExpiresByType image/svg+xml          "access plus 1 year"
+  ExpiresByType image/jpeg             "access plus 1 year"
+  ExpiresByType image/png              "access plus 1 year"
+  ExpiresByType image/webp             "access plus 1 year"
+  ExpiresByType image/x-icon           "access plus 1 year"
+  ExpiresByType text/css               "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/html              "access plus 1 hour"
 </IfModule>
 
-# Force browsers to re-fetch CSS/JS/HTML every time (development phase)
 <IfModule mod_headers.c>
-  <FilesMatch "\.(css|js|html|php)$">
-    Header set Cache-Control "no-cache, no-store, must-revalidate"
-    Header set Pragma "no-cache"
-    Header set Expires "0"
+  # Long-lived, versioned static assets
+  <FilesMatch "\.(css|js|jpg|jpeg|png|svg|webp|ico|woff2?)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  # HTML: short cache, always revalidate so edits show quickly
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+  </FilesMatch>
+  # PHP (contact form) must never be cached
+  <FilesMatch "\.php$">
+    Header set Cache-Control "no-store, must-revalidate"
   </FilesMatch>
 </IfModule>
 

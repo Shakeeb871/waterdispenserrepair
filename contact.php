@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow"><!-- DEV PHASE: remove this line to allow Google indexing when going live -->
   <title>Contact Us | Book a Water Dispenser Repair in UAE</title>
   <meta name="description" content="Contact us for fast water dispenser & cooler repair. Call, WhatsApp or fill the form to book a same-day appointment anywhere in the UAE.">
   <meta name="keywords" content="contact water dispenser repair, book repair UAE, water cooler service Dubai">

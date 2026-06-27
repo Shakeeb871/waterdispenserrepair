@@ -1,10 +1,8 @@
-# ============================================================
-# DEVELOPMENT PHASE — site is hidden from all search engines.
-# ⚠️ TO GO LIVE: replace the two lines below with:
-#     User-agent: *
-#     Allow: /
-#     Disallow: /includes/
-#     Sitemap: https://waterdispenserrepair.ae/sitemap.xml
-# ============================================================
+# Water Dispenser Repair — production robots.txt
+# All search engines and AI crawlers are welcome to crawl and index the site.
+
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /includes/
+
+Sitemap: https://waterdispenserrepair.ae/sitemap.xml

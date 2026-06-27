@@ -894,3 +894,9 @@ html { font-size: 13px; }
 .brandlayout__main > p:last-child,
 .about2__body > p:last-child,
 .prose > p:last-child { margin-bottom: 0; }
+
+/* ===== Brands index — clickable brand cards ===== */
+a.service { text-decoration: none; color: inherit; display: flex; flex-direction: column; }
+a.service h3 { color: var(--heading); }
+a.service .brand-link__cta { margin-top: auto; padding-top: 12px; color: var(--accent); font-weight: 600; font-size: .92rem; letter-spacing: .2px; }
+a.service:hover .brand-link__cta { text-decoration: underline; }

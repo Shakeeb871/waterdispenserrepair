@@ -50,9 +50,11 @@ ErrorDocument 404 /404.html
   RewriteCond %{REQUEST_URI} !/$
   RewriteRule ^(.+)$ /$1/ [R=301,L]
 
-  # Tidy folder roots (no listing page): send to the relevant hub
-  RewriteRule ^brands/?$ /services/ [R=301,L]
+  # /locations/ has no listing page -> send to the homepage hub
   RewriteRule ^locations/?$ / [R=301,L]
+
+  # Serve the brands listing page:  /brands/  ->  brands/index.html
+  RewriteRule ^brands/?$ brands/index.html [L]
 
   # Serve brand pages:  /brands/philips/  ->  brands/philips/index.html
   RewriteRule ^brands/([a-z0-9-]+)/?$ brands/$1/index.html [L]

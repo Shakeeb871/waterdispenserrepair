@@ -29,3 +29,5 @@ deployment:
     - /bin/cp -R blog/.        $DEPLOYPATH/blog/
     - /bin/cp -R brands/.      $DEPLOYPATH/brands/
     - /bin/cp -R locations/.   $DEPLOYPATH/locations/
+    # Remove old static brand pages now served from PHP templates (index.php)
+    - /bin/rm -f $DEPLOYPATH/brands/lg/index.html

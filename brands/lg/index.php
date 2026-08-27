@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-AE">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LG Water Dispenser Repair Dubai | PuriCare &amp; Fridge Service</title>
+<?php
+$title      = 'LG Water Dispenser Repair Dubai | PuriCare &amp; Fridge Service';
+$nav_active = 'brands';
+$brand_slug = 'lg';
+$brand_name = 'LG';
+$head = <<<'HEAD'
   <meta name="description" content="LG water dispenser repair Dubai for PuriCare purifiers, standing dispensers and fridge water systems. AED 90 inspection, fixed quote and 90-day warranty.">
   <meta name="keywords" content="LG water dispenser repair Dubai, LG PuriCare repair Dubai, LG water purifier repair, LG fridge water dispenser repair, LG filter replacement Dubai">
   <link rel="canonical" href="https://waterdispenserrepair.ae/brands/lg/">
@@ -24,14 +24,6 @@
   <meta name="twitter:title" content="LG Water Dispenser Repair Dubai | PuriCare & Fridge Service">
   <meta name="twitter:description" content="LG water dispenser repair Dubai — PuriCare purifiers, standing dispensers &amp; fridge water systems, 90-day warranty.">
   <meta name="twitter:url" content="https://waterdispenserrepair.ae/brands/lg/">
-  <meta name="theme-color" content="#0c1c2c">
-  <link rel="icon" type="image/png" href="/assets/img/favicon.png?v=9">
-  <link rel="apple-touch-icon" href="/assets/img/favicon.png?v=9">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css?v=9">
 
   <script type="application/ld+json">
   {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://waterdispenserrepair.ae/"}, {"@type": "ListItem", "position": 2, "name": "Brands", "item": "https://waterdispenserrepair.ae/brands/"}, {"@type": "ListItem", "position": 3, "name": "LG Repair", "item": "https://waterdispenserrepair.ae/brands/lg/"}]}
@@ -79,75 +71,9 @@
     {"@type": "Question", "name": "Do you repair imported LG water purifier models?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, imported LG models can be inspected. Repair depends on filter match, spare availability, and compatibility with the installed Dubai water connection."}}
   ]}
   </script>
-  <script src="https://analytics.ahrefs.com/analytics.js" data-key="i6041B/dwASsMY+57MH5lw" async></script>
-</head>
-<body>
-
-  <div class="topbar">
-    <div class="container">
-      <div class="topbar__info">
-        <a href="tel:+971501590802"><i><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></i> +971 50 159 0802</a>
-        <a href="mailto:info@waterdispenserrepair.ae"><i><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></i> info@waterdispenserrepair.ae</a>
-        <span class="hide-sm"><i><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></i> Serving all Emirates</span>
-      </div>
-      <div class="topbar__social">
-        <a href="#" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7h2.3l.4-2.7h-2.7V9.6c0-.8.2-1.3 1.3-1.3h1.4V5.9c-.3 0-1.1-.1-2-.1-2 0-3.4 1.2-3.4 3.5v1.9H8.3V14h2.5v7h2.7Z"/></svg></a><a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17" cy="7" r="1.1" fill="currentColor" stroke="none"/></svg></a><a href="https://wa.me/971501590802" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Zm4.4-5.6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1-.7-.3-1.4-.6-2-1.4-.4-.6 0-.6.4-1.3.1-.2 0-.4 0-.5l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.7.7-.9 1.7-.6 2.8.4 1.4 1.3 2.6 2.6 3.6 1.8 1.3 3.2 1.5 4 1.2.5-.2 1.4-.9 1.6-1.4.2-.5.2-1 .1-1.1Z"/></svg></a>
-      </div>
-    </div>
-  </div>
-
-  <header class="header">
-    <div class="container nav">
-      <a href="/" class="brand" aria-label="Water Dispenser Repair — home">
-        <img src="/assets/img/logo.png?v=9" alt="Water Dispenser Repair — UAE" class="brand__logo-img" width="150" height="56">
-      </a>
-      <nav class="nav__menu" aria-label="Main navigation">
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/services/">Services</a>
-        <div class="nav__item has-dropdown">
-          <a href="/brands/" class="nav__droplink active">Brands <span class="caret"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></a>
-          <div class="nav__sub">
-            <a href="/brands/philips/">Philips</a>
-            <a href="/brands/panasonic/">Panasonic</a>
-            <a href="/brands/midea/">Midea</a>
-            <a href="/brands/geepas/">Geepas</a>
-            <a href="/brands/nikai/">Nikai</a>
-            <a href="/brands/super-general/">Super General</a>
-            <a href="/brands/crownline/">Crownline</a>
-            <a href="/brands/lg/" class="active">LG</a>
-            <a href="/brands/samsung/">Samsung</a>
-            <a href="/brands/electrolux/">Electrolux</a>
-            <a href="/brands/hisense/">Hisense</a>
-            <a href="/brands/westpoint/">Westpoint</a>
-            <a href="/brands/aftron/">Aftron</a>
-            <a href="/brands/krypton/">Krypton</a>
-            <a href="/brands/crystal-mountain/">Crystal Mountain</a>
-          </div>
-        </div>
-        <div class="nav__item has-dropdown">
-          <a href="#" class="nav__droplink">Locations <span class="caret"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></a>
-          <div class="nav__sub nav__sub--sm">
-            <a href="/">Dubai</a>
-            <a href="/water-dispenser-repair-abu-dhabi/">Abu Dhabi</a>
-            <a href="/water-dispenser-repair-sharjah/">Sharjah</a>
-            <a href="/water-dispenser-repair-ajman/">Ajman</a>
-          </div>
-        </div>
-        <a href="/blog/">Blog</a>
-        <a href="/contact/">Contact</a>
-      </nav>
-      <div class="nav__actions">
-        <a href="tel:+971501590802" class="nav__phone">
-          <span class="ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span>
-          <span><small>Call us 24/7</small><strong>+971 50 159 0802</strong></span>
-        </a>
-        <a href="/contact/" class="btn btn--primary">Get a Quote</a>
-      </div>
-      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-    </div>
-  </header>
-  <div class="nav-overlay"></div>
+HEAD;
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
+?>
 
   <section class="page-hero">
     <div class="container">
@@ -277,51 +203,7 @@
 
         </div>
 
-        <aside class="brandlayout__aside">
-          <div class="widget reveal">
-            <h3 class="widget__title">Water Dispenser Brands We Repair</h3>
-            <nav class="widget-list" aria-label="Brands we repair">
-              <a href="/brands/philips/">Philips Water Dispenser Repair</a>
-              <a href="/brands/panasonic/">Panasonic Water Dispenser Repair</a>
-              <a href="/brands/midea/">Midea Water Dispenser Repair</a>
-              <a href="/brands/geepas/">Geepas Water Dispenser Repair</a>
-              <a href="/brands/nikai/">Nikai Water Dispenser Repair</a>
-              <a href="/brands/super-general/">Super General Water Dispenser Repair</a>
-              <a href="/brands/crownline/">Crownline Water Dispenser Repair</a>
-              <a href="/brands/lg/" class="is-active">LG Water Dispenser Repair</a>
-              <a href="/brands/samsung/">Samsung Water Dispenser Repair</a>
-              <a href="/brands/electrolux/">Electrolux Water Dispenser Repair</a>
-              <a href="/brands/hisense/">Hisense Water Dispenser Repair</a>
-              <a href="/brands/westpoint/">Westpoint Water Dispenser Repair</a>
-              <a href="/brands/aftron/">Aftron Water Dispenser Repair</a>
-              <a href="/brands/krypton/">Krypton Water Dispenser Repair</a>
-              <a href="/brands/crystal-mountain/">Crystal Mountain Water Dispenser Repair</a>
-            </nav>
-          </div>
-          <div class="widget reveal">
-            <h3 class="widget__title">Our Service Areas</h3>
-            <nav class="widget-list" aria-label="Service areas">
-              <a href="/">Water Dispenser Repair Dubai</a>
-              <a href="/water-dispenser-repair-abu-dhabi/">Water Dispenser Repair Abu Dhabi</a>
-              <a href="/water-dispenser-repair-sharjah/">Water Dispenser Repair Sharjah</a>
-              <a href="/water-dispenser-repair-ajman/">Water Dispenser Repair Ajman</a>
-            </nav>
-          </div>
-          <div class="widget widget--form reveal">
-            <h3 class="widget__title">Book a Free Quote</h3>
-            <p class="widget__note">Tell us your LG dispenser issue and we&rsquo;ll call you back with a same-day slot.</p>
-            <form class="widget-form" action="mailto:info@waterdispenserrepair.ae" method="post" enctype="text/plain">
-              <input type="text" name="name" placeholder="Your name" required>
-              <input type="tel" name="phone" placeholder="Phone number" required>
-              <textarea name="message" placeholder="Describe your LG dispenser problem"></textarea>
-              <button type="submit" class="btn btn--primary">Request a Call Back</button>
-            </form>
-            <div class="widget-cta">
-              <a href="tel:+971501590802" class="btn btn--light">Call Now</a>
-              <a href="https://wa.me/971501590802" class="btn btn--outline">WhatsApp</a>
-            </div>
-          </div>
-        </aside>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/brand-sidebar.php'; ?>
       </div>
     </div>
   </section>
@@ -335,35 +217,4 @@
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__branches">
-        <div class="fbranch"><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><strong>Dubai Branch</strong><span>Al Furjan, Jebel Ali Village, Dubai, United Arab Emirates</span></div></div>
-        <div class="fbranch"><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><strong>Sharjah Branch</strong><span>8CH7+HVR, Industrial Area, Sharjah, United Arab Emirates</span></div></div>
-        <div class="fbranch"><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><strong>Abu Dhabi Branch</strong><span>M7, مصفح 7, Musaffah, Abu Dhabi, United Arab Emirates</span></div></div>
-      </div>
-      <div class="footer__grid">
-        <div>
-          <div class="footer__brand"><span class="brand__logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s5.5 6 5.5 10a5.5 5.5 0 0 1-11 0C6.5 9 12 3 12 3Z"/></svg></span>Water Dispenser Repair</div>
-          <p>Professional water dispenser and cooler repair, installation and maintenance across the United Arab Emirates.</p>
-          <div class="footer__social"><a href="#" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7h2.3l.4-2.7h-2.7V9.6c0-.8.2-1.3 1.3-1.3h1.4V5.9c-.3 0-1.1-.1-2-.1-2 0-3.4 1.2-3.4 3.5v1.9H8.3V14h2.5v7h2.7Z"/></svg></a><a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17" cy="7" r="1.1" fill="currentColor" stroke="none"/></svg></a><a href="https://wa.me/971501590802" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Zm4.4-5.6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1-.7-.3-1.4-.6-2-1.4-.4-.6 0-.6.4-1.3.1-.2 0-.4 0-.5l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.7.7-.9 1.7-.6 2.8.4 1.4 1.3 2.6 2.6 3.6 1.8 1.3 3.2 1.5 4 1.2.5-.2 1.4-.9 1.6-1.4.2-.5.2-1 .1-1.1Z"/></svg></a></div>
-        </div>
-        <div><h4>Quick Links</h4><ul class="footer__links"><li><a href="/">Home</a></li><li><a href="/about/">About Us</a></li><li><a href="/services/">Services</a></li><li><a href="/contact/">Contact</a></li><li><a href="/blog/">Blog</a></li></ul></div>
-        <div><h4>Brands We Repair</h4><ul class="footer__links"><li><a href="/brands/lg/">LG Repair</a></li><li><a href="/brands/samsung/">Samsung Repair</a></li><li><a href="/brands/midea/">Midea Repair</a></li><li><a href="/brands/philips/">Philips Repair</a></li></ul></div>
-        <div><h4>Get In Touch</h4><ul class="footer__contact"><li><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span> <a href="tel:+971501590802">+971 50 159 0802</a></li><li><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span> <a href="mailto:info@waterdispenserrepair.ae">info@waterdispenserrepair.ae</a></li><li><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span> Dubai • Sharjah • Abu Dhabi</li><li><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span> Mon – Sun: 8 AM – 10 PM</li></ul></div>
-      </div>
-      <div class="footer__legal"><a href="/privacy-policy/">Privacy Policy</a><span>&middot;</span><a href="/terms-conditions/">Terms &amp; Conditions</a><span>&middot;</span><a href="/cookie-policy/">Cookie Policy</a></div>
-      <div class="footer__credit">Developed &amp; Marketing By <a href="http://clickyfyre.com/" target="_blank" rel="noopener nofollow">Clicky Fyre</a></div>
-      <div class="footer__bottom"><span>&copy; <span id="year">2026</span> Water Dispenser Repair. All rights reserved.</span><span>Serving Dubai • Abu Dhabi • Sharjah • Ajman • RAK • Fujairah • UAQ</span></div>
-    </div>
-  </footer>
-
-  <div class="floating">
-    <a href="#" class="top" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
-    <a href="https://wa.me/971501590802" class="wa" aria-label="WhatsApp"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Zm4.4-5.6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1-.7-.3-1.4-.6-2-1.4-.4-.6 0-.6.4-1.3.1-.2 0-.4 0-.5l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.7.7-.9 1.7-.6 2.8.4 1.4 1.3 2.6 2.6 3.6 1.8 1.3 3.2 1.5 4 1.2.5-.2 1.4-.9 1.6-1.4.2-.5.2-1 .1-1.1Z"/></svg></a>
-    <a href="tel:+971501590802" class="call" aria-label="Call"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></a>
-  </div>
-
-  <script src="/assets/js/main.js?v=9"></script>
-</body>
-</html>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

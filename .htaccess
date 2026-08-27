@@ -56,6 +56,10 @@ ErrorDocument 404 /404.html
   # Serve the brands listing page:  /brands/  ->  brands/index.html
   RewriteRule ^brands/?$ brands/index.html [L]
 
+  # PHP-templated brand pages (shared header/footer/sidebar via includes).
+  # These specific rules run before the generic .html rule below.
+  RewriteRule ^brands/lg/?$ brands/lg/index.php [L]
+
   # Serve brand pages:  /brands/philips/  ->  brands/philips/index.html
   RewriteRule ^brands/([a-z0-9-]+)/?$ brands/$1/index.html [L]
 

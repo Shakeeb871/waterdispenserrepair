@@ -918,3 +918,11 @@ a.service:hover .brand-link__cta { text-decoration: underline; }
 .footer__credit { text-align: center; padding: 4px 0 2px; font-size: .85rem; color: rgba(255,255,255,.6); }
 .footer__credit a { color: rgba(255,255,255,.85); font-weight: 600; }
 .footer__credit a:hover { color: #fff; }
+
+/* ===== Blog article: subheadings + tables ===== */
+.article h3 { font-size: 1.18rem; margin: 26px 0 10px; color: var(--heading); }
+.article .table-wrap { overflow-x: auto; margin: 0 0 22px; }
+.article table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.article th, .article td { border: 1px solid var(--line); padding: 9px 12px; text-align: left; vertical-align: top; }
+.article thead th { background: var(--accent-soft); color: var(--heading); font-weight: 600; }
+.article strong { color: var(--heading); }

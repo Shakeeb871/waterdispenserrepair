@@ -26,13 +26,13 @@
   <meta name="twitter:description" content="Book a water dispenser repair anywhere in the UAE — call, WhatsApp or fill the form.">
   <meta name="twitter:url" content="https://waterdispenserrepair.ae/contact/">
   <meta name="theme-color" content="#0c1c2c">
-  <link rel="icon" type="image/png" href="/assets/img/favicon.png?v=9">
-  <link rel="apple-touch-icon" href="/assets/img/favicon.png?v=9">
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png?v=10">
+  <link rel="apple-touch-icon" href="/assets/img/favicon.png?v=10">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css?v=9">
+  <link rel="stylesheet" href="/assets/css/style.css?v=10">
 
   <script type="application/ld+json">
   {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://waterdispenserrepair.ae/"}, {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://waterdispenserrepair.ae/contact/"}]}
@@ -57,7 +57,7 @@
   <header class="header">
     <div class="container nav">
       <a href="/" class="brand" aria-label="Water Dispenser Repair — home">
-        <img src="/assets/img/logo.png?v=9" alt="Water Dispenser Repair — UAE" class="brand__logo-img" width="150" height="56">
+        <img src="/assets/img/logo.png?v=10" alt="Water Dispenser Repair — UAE" class="brand__logo-img" width="150" height="56">
       </a>
       <nav class="nav__menu" aria-label="Main navigation">
         <a href="/">Home</a>
@@ -121,8 +121,8 @@
         <!-- INFO -->
         <div class="reveal">
           <span class="eyebrow">Get In Touch</span>
-          <h2 class="section-title" style="font-size:1.9rem;">We're Here to Help, 7 Days a Week</h2>
-          <p style="color:var(--muted);margin-bottom:24px;">Reach us any way you like — we respond fast and book the earliest slot for you.</p>
+          <h2 class="section-title section-title--lg">We're Here to Help, 7 Days a Week</h2>
+          <p class="lead-muted">Reach us any way you like — we respond fast and book the earliest slot for you.</p>
 
           <div class="contact-card">
             <span class="contact-card__ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span>
@@ -145,8 +145,8 @@
         <!-- FORM -->
         <div class="reveal">
           <div class="form-card">
-            <h2 class="section-title" style="font-size:1.6rem;margin-bottom:6px;">Request a Repair</h2>
-            <p style="color:var(--muted);margin-bottom:24px;">Fill in the details and we'll get back to you shortly.</p>
+            <h2 class="section-title section-title--compact">Request a Repair</h2>
+            <p class="lead-muted">Fill in the details and we'll get back to you shortly.</p>
 
             <?php if ($formStatus === 'success'): ?>
               <div class="alert alert--success">✓ Thank you! Your request has been sent. We'll contact you very soon.</div>
@@ -157,7 +157,7 @@
             <?php endif; ?>
 
             <form id="contactForm" action="/contact#book" method="POST" novalidate>
-              <div style="position:absolute;left:-9999px;" aria-hidden="true">
+              <div class="hp-field" aria-hidden="true">
                 <label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
               </div>
 
@@ -215,7 +215,7 @@
                 <span class="field-error"><?php echo e($formErrors['message'] ?? 'This field is required.'); ?></span>
               </div>
 
-              <button type="submit" class="btn btn--primary btn--lg" style="width:100%;">Send Request</button>
+              <button type="submit" class="btn btn--primary btn--lg w-full">Send Request</button>
               <p class="form-note">We'll never share your details. You can also call us at <a href="tel:+971501590802">+971 50 159 0802</a>.</p>
             </form>
           </div>
@@ -229,7 +229,7 @@
   <section class="section section--soft" id="book">
     <div class="container">
       <div class="section-head">
-        <span class="eyebrow" style="justify-content:center;">Our Locations</span>
+        <span class="eyebrow eyebrow--center">Our Locations</span>
         <h2 class="section-title">Three Branches Across the UAE</h2>
         <p>Visit us or call your nearest branch — we serve Dubai, Sharjah, Abu Dhabi and beyond.</p>
       </div>
@@ -253,7 +253,7 @@
           <a href="https://www.google.com/maps/search/?api=1&amp;query=Musaffah+M7+Abu+Dhabi" target="_blank" rel="noopener" class="service__more">Get directions</a>
         </article>
       </div>
-      <div class="map-wrap reveal" style="margin-top:40px;">
+      <div class="map-wrap reveal mt-40">
         <iframe title="Service area map — United Arab Emirates" src="https://www.openstreetmap.org/export/embed.html?bbox=51.0%2C22.6%2C56.5%2C26.1&amp;layer=mapnik" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
@@ -288,6 +288,6 @@
     <a href="tel:+971501590802" class="call" aria-label="Call"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></a>
   </div>
 
-  <script src="/assets/js/main.js?v=9"></script>
+  <script src="/assets/js/main.js?v=10"></script>
 </body>
 </html>

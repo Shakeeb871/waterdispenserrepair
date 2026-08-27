@@ -31,3 +31,6 @@ deployment:
     - /bin/cp -R locations/.   $DEPLOYPATH/locations/
     # Remove old static brand pages now served from PHP templates (index.php)
     - /bin/rm -f $DEPLOYPATH/brands/lg/index.html
+    # Build sources are not served — style.css / main.js are the built output
+    - /bin/rm -f $DEPLOYPATH/assets/css/style.src.css
+    - /bin/rm -f $DEPLOYPATH/assets/js/main.src.js

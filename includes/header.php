@@ -40,13 +40,13 @@ $cur   = fn($k) => $na === $k ? ' class="active"' : '';
 <?= $head ?>
 
   <meta name="theme-color" content="#0c1c2c">
-  <link rel="icon" type="image/png" href="/assets/img/favicon.png?v=9">
-  <link rel="apple-touch-icon" href="/assets/img/favicon.png?v=9">
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png?v=10">
+  <link rel="apple-touch-icon" href="/assets/img/favicon.png?v=10">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css?v=9">
+  <link rel="stylesheet" href="/assets/css/style.css?v=10">
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="i6041B/dwASsMY+57MH5lw" async></script>
 </head>
 <body>
@@ -67,7 +67,7 @@ $cur   = fn($k) => $na === $k ? ' class="active"' : '';
   <header class="header">
     <div class="container nav">
       <a href="/" class="brand" aria-label="Water Dispenser Repair — home">
-        <img src="/assets/img/logo.png?v=9" alt="Water Dispenser Repair — UAE" class="brand__logo-img" width="150" height="56">
+        <img src="/assets/img/logo.png?v=10" alt="Water Dispenser Repair — UAE" class="brand__logo-img" width="150" height="56">
       </a>
       <nav class="nav__menu" aria-label="Main navigation">
         <a href="/"<?= $cur('home') ?>>Home</a>

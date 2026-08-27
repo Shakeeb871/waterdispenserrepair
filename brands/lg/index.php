@@ -90,14 +90,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           <p class="lead">We provide <strong>LG Water Dispenser Repair Dubai</strong> for homes, offices, shops, clinics, salons, restaurants, and rental properties. Our technicians handle <strong>LG water dispensers, LG water purifiers, LG PuriCare units, and LG refrigerator water dispensers</strong> with clean inspection and correct repair handling.</p>
           <p>Our service is built for customers who need a trained technician, clear diagnosis, and proper repair without confusion. We understand the difference between <strong>LG PuriCare purifiers, bottle-type dispensers, plumbed-in units, and fridge-door dispenser systems</strong>.</p>
 
-          <h2 class="section-title" style="text-align:left;margin-top:38px;">Trusted LG Water Dispenser Repair Service in Dubai</h2>
+          <h2 class="section-title section-title--left-tight">Trusted LG Water Dispenser Repair Service in Dubai</h2>
           <p>Our appliance repair company has served Dubai customers <strong>since 2003</strong> and works under <strong>DED and Dubai Municipality</strong> requirements. The team is experienced with LG water dispenser service Dubai, including purifier-style units, standing dispensers, and built-in refrigerator water systems.</p>
           <p>We charge <strong>AED 90 for inspection</strong>, then give a <strong>fixed quote before repair starts</strong>. Completed repair work comes with a <strong>90-day service warranty</strong>, and when the needed spare is available, we aim to complete the job in a single visit.</p>
           <p>Every visit is handled with clean work practice, careful water-line checking, and respect for the customer&rsquo;s property. Our technician explains the exact work needed in simple words before opening the unit further.</p>
-          <a href="/contact/" class="btn btn--dark" style="margin-top:6px;">Book LG Repair</a>
+          <a href="/contact/" class="btn btn--dark mt-6">Book LG Repair</a>
 
-          <h2 class="section-title" style="text-align:left;margin-top:46px;">LG Water Dispenser Problems We Fix</h2>
-          <p style="margin-bottom:22px;">LG water products can use filters, digital panels, supply valves, tankless water lines, cooling systems, and fridge-door dispenser controls. We check the exact LG type first, then repair the fault with the right method for that unit.</p>
+          <h2 class="section-title section-title--left">LG Water Dispenser Problems We Fix</h2>
+          <p class="mb-22">LG water products can use filters, digital panels, supply valves, tankless water lines, cooling systems, and fridge-door dispenser controls. We check the exact LG type first, then repair the fault with the right method for that unit.</p>
           <div class="grid grid--2">
             <article class="service reveal"><div class="service__ic service__ic--round" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V5a2 2 0 1 1 4 0v8a4 4 0 1 1-4 0Z"/><path d="M18 5h3M18 9h2M18 13h3"/></svg></div><h4>LG Dispenser Not Cooling</h4><p>We check the <strong>compressor</strong>, <strong>cooling coil</strong>, <strong>thermostat</strong>, fan area, and <strong>refrigerant condition</strong>. After testing, we repair the cooling fault or replace the failed cooling part.</p></article>
             <article class="service reveal"><div class="service__ic service__ic--round" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1 3-1 4-1 6a3 3 0 0 0 6 0c0-1-.5-2-1-2.5C16 9 17 11 17 13a5 5 0 0 1-10 0c0-4 3-6 5-10Z"/></svg></div><h4>LG Dispenser Not Heating</h4><p>We inspect the <strong>heating element</strong>, <strong>thermal cut-off</strong>, internal wiring, switch, and <strong>scale build-up</strong>. The repair is done after confirming whether the heat circuit or safety part has failed.</p></article>
@@ -109,17 +109,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <article class="service reveal"><div class="service__ic service__ic--round" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 6h6M9 10h6M11 18h2"/></svg></div><h4>Not Dispensing on Plumbed-in or Fridge Models</h4><p>We check the <strong>water feed</strong>, <strong>dispenser lock</strong>, <strong>filter seating</strong>, door switch, valve, and line connection. The unit is restored after the blocked or locked dispenser path is corrected.</p></article>
           </div>
 
-          <h2 class="section-title" style="text-align:left;margin-top:46px;">LG Dispenser &amp; Purifier Models We Repair in Dubai</h2>
+          <h2 class="section-title section-title--left">LG Dispenser &amp; Purifier Models We Repair in Dubai</h2>
           <p>We repair <strong>LG PuriCare tankless purifier range</strong> units installed in apartments, villas, staff rooms, offices, and small commercial spaces. These units are usually connected to a water line and may include digital controls, touch dispensing, and filter-service indicators.</p>
           <p>We also repair <strong>LG standing and bottle-type dispensers</strong> used in homes, offices, shops, and reception areas. These units may be top-load, bottom-load, hot and cold, or cooling-only depending on the installed product.</p>
           <p>Our service also covers <strong>LG refrigerator water dispensers</strong> fitted into fridge doors. These systems are different from standalone coolers because they are part of the refrigerator body and need careful handling around the door, water line, and dispenser panel.</p>
 
-          <h2 class="section-title" style="text-align:left;margin-top:46px;">Genuine LG Parts &amp; Filters We Use</h2>
+          <h2 class="section-title section-title--left">Genuine LG Parts &amp; Filters We Use</h2>
           <p>We use suitable LG parts and filters based on the model label, water connection, and installed system type. Common filter items include <strong>UF cartridges, RO cartridges, sediment filters, carbon filters, post filters, and purifier-specific replacement cartridges</strong>.</p>
           <p>For cooling and heating repairs, we source <strong>compressors, thermostats, heating elements, thermal cut-offs, faucets, seals, inlet valves, pumps, and pipe connectors</strong> according to unit requirement. For digital LG models, we check control boards, sensors, touch panels, and wiring connectors before replacement.</p>
           <p>Filter and part matching is done before fitting because LG PuriCare, standing dispensers, and fridge water dispensers do not all use the same items. This prevents wrong installation and keeps the repair suitable for the actual LG appliance.</p>
 
-          <h2 class="section-title" style="text-align:left;margin-top:46px;">Our LG Repair Process in 5 Simple Steps</h2>
+          <h2 class="section-title section-title--left">Our LG Repair Process in 5 Simple Steps</h2>
           <div class="proc">
             <div class="proc__step reveal"><span class="proc__num">1</span><div class="proc__c"><h4>Appointment Confirmation</h4><p>Appointment confirmation with the LG product type and location.</p></div></div>
             <div class="proc__step reveal"><span class="proc__num">2</span><div class="proc__c"><h4>On-Site Inspection</h4><p>The technician checks the dispenser body, water line, filter area, electrical parts, and user controls.</p></div></div>
@@ -129,7 +129,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           </div>
           <div class="proc-note"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.4 7.6 8 9 4.6-1.4 8-4 8-9V6Z"/><path d="m9 12 2 2 4-4"/></svg><span>This process keeps LG water dispenser service Dubai simple for tenants, owners, managers, and office admins. It also helps avoid random part changing because the technician works from inspection to final test in order.</span></div>
 
-          <h2 class="section-title" style="text-align:left;margin-top:46px;">Why Dubai Customers Choose Us for LG Repair</h2>
+          <h2 class="section-title section-title--left">Why Dubai Customers Choose Us for LG Repair</h2>
           <div class="grid grid--2">
             <article class="service reveal"><div class="service__ic service__ic--round" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 5.5a3.5 3.5 0 0 0-4.9 4.5L3 16.6 5.4 19l6.6-6.6a3.5 3.5 0 0 0 4.5-4.9l-2.1 2.1-2-2Z"/></svg></div><h4>LG Purifier Handling</h4><p>LG purifier work is done by technicians who understand <strong>plumbed-in water systems</strong> and compact under-counter supply lines.</p></article>
             <article class="service reveal"><div class="service__ic service__ic--round" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 6h6M9 10h6"/></svg></div><h4>Careful Fridge Dispenser Work</h4><p>Fridge dispenser work is handled carefully so the <strong>refrigerator door, shelves, and food compartment</strong> stay protected during service.</p></article>
@@ -139,7 +139,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <article class="service reveal"><div class="service__ic service__ic--round" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg></div><h4>Simple Communication</h4><p>Our team communicates repair scope in <strong>simple language</strong>, so customers know what is being done before the unit is closed.</p></article>
           </div>
 
-          <h2 class="section-title" style="text-align:left;margin-top:46px;">LG Water Dispenser Repair Across All Dubai Areas</h2>
+          <h2 class="section-title section-title--left">LG Water Dispenser Repair Across All Dubai Areas</h2>
           <p>We provide LG water dispenser repair across Dubai, including Downtown Dubai, Business Bay, Dubai Marina, JLT, JBR, Palm Jumeirah, Al Barsha, Barsha Heights, Dubai Hills, Arabian Ranches, Jumeirah, Umm Suqeim, Al Quoz, Deira, Bur Dubai, Karama, Oud Metha, Mirdif, Nad Al Sheba, Silicon Oasis, International City, Discovery Gardens, Motor City, Sports City, and JVC.</p>
           <div class="area-chips">
             <span>Downtown Dubai</span><span>Business Bay</span><span>Dubai Marina</span><span>JLT</span><span>JBR</span><span>Palm Jumeirah</span><span>Al Barsha</span><span>Barsha Heights</span><span>Dubai Hills</span><span>Arabian Ranches</span><span>Jumeirah</span><span>Umm Suqeim</span><span>Al Quoz</span><span>Deira</span><span>Bur Dubai</span><span>Karama</span><span>Oud Metha</span><span>Mirdif</span><span>Nad Al Sheba</span><span>Silicon Oasis</span><span>International City</span><span>Discovery Gardens</span><span>Motor City</span><span>Sports City</span><span>JVC</span>
@@ -152,7 +152,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <article class="service reveal"><div class="service__ic service__ic--round" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6 21V8l6-4 6 4v13M10 21v-5h4v5"/></svg></div><h4>Property Customers</h4><p>We work with <strong>tenants, landlords, real estate agents, and facility managers</strong> who need service records.</p></article>
           </div>
 
-          <h2 class="section-title" style="text-align:left;margin-top:46px;">Common LG Water Dispenser Repair Questions</h2>
+          <h2 class="section-title section-title--left">Common LG Water Dispenser Repair Questions</h2>
           <div class="faq">
             <div class="faq__item reveal"><button class="faq__q" aria-expanded="false">Can you repair LG PuriCare water purifiers in Dubai?<span class="ic">+</span></button><div class="faq__a"><p>Yes, PuriCare units are covered. The technician checks the unit type, water feed, filter section, touch controls, and dispensing system before repair.</p></div></div>
             <div class="faq__item reveal"><button class="faq__q" aria-expanded="false">Do you handle LG refrigerator water dispensers?<span class="ic">+</span></button><div class="faq__a"><p>Yes, refrigerator dispenser systems are included. The technician works around the fridge door, dispenser panel, filter seating, and water connection carefully.</p></div></div>
@@ -164,7 +164,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <div class="faq__item reveal"><button class="faq__q" aria-expanded="false">Do you repair imported LG water purifier models?<span class="ic">+</span></button><div class="faq__a"><p>Yes, imported LG models can be inspected. Repair depends on filter match, spare availability, and compatibility with the installed Dubai water connection.</p></div></div>
           </div>
 
-          <h2 class="section-title" style="text-align:left;margin-top:46px;">What LG Customers Say About Our Repair Services</h2>
+          <h2 class="section-title section-title--left">What LG Customers Say About Our Repair Services</h2>
           <div class="grid grid--2">
             <article class="rev reveal">
               <span class="rev__stars" aria-label="5 out of 5 stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></span>
@@ -198,7 +198,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             </article>
           </div>
 
-          <h2 class="section-title" style="text-align:left;margin-top:46px;">Book LG Water Dispenser Repair in Dubai</h2>
+          <h2 class="section-title section-title--left">Book LG Water Dispenser Repair in Dubai</h2>
           <p>For LG Water Dispenser Repair Dubai, call or WhatsApp us today at <a href="tel:+971501590802">+971 50 159 0802</a> and share your LG model type, location, and a clear photo of the dispenser or purifier. We also repair other leading brands, including <a href="/brands/samsung/">Samsung water dispensers</a> and <a href="/brands/midea/">Midea water dispensers</a>.</p>
 
         </div>
